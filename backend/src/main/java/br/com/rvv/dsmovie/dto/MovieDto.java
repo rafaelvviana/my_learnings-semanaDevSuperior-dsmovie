@@ -21,6 +21,7 @@ public class MovieDto {
 	}
 	
 	public MovieDto(Movie movie) {
+		id = movie.getId();
 		title = movie.getTitle();
 		score = movie.getScore();
 		count = movie.getCount();
